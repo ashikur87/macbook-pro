@@ -1,0 +1,14 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.image-size{
+    width: 400px;
+    height: 350px;
+}
+.new4 {
+    border: 1px solid black;
+  }
+  .btn-hover:hover{
+      background-color: black;
+      color: wheat;
+  }

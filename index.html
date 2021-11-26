@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac-Book-E-commerce</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="mt-10 w-3/4 mx-auto  ">
+        <div class="grid lg:grid-cols-2 gap-5  ">
+            <div class="">
+                <img class="image-size" src="image/mac.png" alt="">
+            </div>
+            <div>
+                <h1 class="text-3xl font-bold">Customize Your Blue 24-inch Imac With Apple M1 Chip</h1>
+                <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis libero
+                    provident unde
+                    fugit ipsa
+                    laboriosam, dicta porro dolore ullam molestiae impedit, voluptatum totam accusantium consequatur.
+                </p>
+                <h1 class="text-lg font-bold  mt-5">Memory</h1>
+                <div class="grid grid-cols-2 mt-5  ">
+
+                    <div>
+                        <button id="memory1-btn" class="btn-hover border-2 border-gray-900 px-2">8GB unified
+                            memory</button>
+                    </div>
+                    <div>
+                        <button id="memory2-btn" class="btn-hover border-2 border-gray-900 px-2">16GB unified
+                            memory</button>
+                    </div>
+                </div>
+                <h1 class="text-lg font-bold mt-5">Storage</h1>
+                <div class="grid grid-cols-3 mt-5 gap-1 ">
+
+                    <div>
+                        <button id="ssd1-btn" class="btn-hover border-2 border-gray-900 ">256GB SSD Storage</button>
+                    </div>
+                    <div>
+                        <button id="ssd2-btn" class="btn-hover border-2 border-gray-900 px-1">512GB SSD Storage</button>
+                    </div>
+                    <div>
+                        <button id="ssd3-btn" class="btn-hover border-2 border-gray-900 px-1">1TB SSD Storage</button>
+                    </div>
+                </div>
+                <h1 class="text-lg font-bold  mt-5">Choose your delivery option</h1>
+                <div class="grid grid-cols-2 mt-5 mb-10 gap-1 ">
+
+                    <div>
+                        <button id="delivery1-btn" class="btn-hover border-2 border-gray-900 px-1">Friday, Aug-25 Free
+                            prime
+                            delivery</button>
+                    </div>
+                    <div>
+                        <button id="delivery2-btn" class="btn-hover border-2 border-gray-900 px-1">Friday, Aug-21
+                            Delivery charge
+                            $20</button>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 border">
+                    <div>
+                        <h1 class="text-md font-bold">Best Price</h1>
+                    </div>
+                    <div>
+                        <h5 class="text-md font-bold">$<span id="sub-total">1299</span></h5>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 border">
+                    <div>
+                        <h1 class="text-md font-bold">Extra Memory Cost</h1>
+                    </div>
+                    <div>
+                        <h5 class="text-md font-bold">$<span id="extramemory-price">0</span></h5>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 border">
+                    <div>
+                        <h1 class="text-md font-bold">Extra Storage Cost</h1>
+                    </div>
+                    <div>
+                        <h5 class="text-md font-bold">$<span id="extrastorage-price">0</span></h5>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 border">
+                    <div class="">
+                        <h1 class="text-md font-bold">Extra Delivery Cost</h1>
+                    </div>
+                    <div class="">
+                        <h5 class="text-md font-bold">$<span id="extradelivery-price">0</span></h5>
+
+                    </div>
+                </div>
+                <hr class="new4 mt-0">
+
+
+                <div class="grid grid-cols-2 mt-1  mb-5 ">
+                    <div>
+                        <h1 class="text-md font-bold">Total Cost</h1>
+                    </div>
+                    <div>
+                        <h5 class="text-md font-bold">$<span id="total-price">1299</span></h5>
+                    </div>
+
+                </div>
+                <h1 class="text-md font-bold">Add Promo Code</h1>
+                <div class="flex   mb-5 ">
+                    <div>
+                        <input id="promo-input" class="border-2 px-3 text-sm" type="text"
+                            placeholder="please write your promo code">
+                    </div>
+                    <div>
+                        <button id="apply-btn" class="text-white bg-red-600 px-2 border-2 rounded-lg">Apply</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        </div>
+
+    </section>
+    <section class="border ">
+        <div class="flex justify-center text-2xl font-bold  mt-5 mb-5 ">
+            <div>
+                <h1 class="text-md font-bold">Total price:</h1>
+            </div>
+            <div>
+                <h5 class="text-md font-bold">$<span id="best-price">1299</span></h5>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/mac.js"></script>
+</body>
+
+</html>
